@@ -1,0 +1,66 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    background-color: yellow;
+    border-bottom: 4px solid blue;
+    font-weight: bold;
+}
+
+.menu>li{
+    display: inline-block;
+    padding:15px;
+    position:relative;
+    border-bottom:4px solid transparent;
+}
+
+.container li a {
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.menu a:visited{
+    color:blue
+}
+
+.menu li:hover{
+    border-color: black;
+    cursor: pointer;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.sobre-a-loja .sobre{
+    display: flex;
+    align-items: center;
+}
+
+.sobre-a-loja .sobre img{
+width: 222px;
+height: auto;
+margin-right: 16px;
+}
+.sobre-a-loja .sobre .texto{
+    max-width:calc(100% -216px);
+}
+.titulo{
+ margin-bottom:8px;
+ border-bottom:3px solid blue; 
+padding-bottom:8px;
+margin-bottom:8px;
+}
