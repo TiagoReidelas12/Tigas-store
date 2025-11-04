@@ -103,3 +103,18 @@ margin-bottom:8px;
     border-radius: 4px;
     height: 100%;
 }
+
+#contato.container{
+    display: block;
+    margin-top: 50px;
+}
+
+
+.metodos-contato{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links img{
+    height: 24px;
+}
