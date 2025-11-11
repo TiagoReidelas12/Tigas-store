@@ -104,9 +104,9 @@ margin-bottom:8px;
     height: 100%;
 }
 
-#contato.container{
+#contato .container{
     display: block;
-    margin-top: 50px;
+    margin-top: 1100px
 }
 
 
@@ -116,5 +116,72 @@ margin-bottom:8px;
 }
 
 .social-links img{
-    height: 24px;
+    height: 60px;
+}
+
+.social-links li{
+    display: inline;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+
+.container h3{
+    margin-bottom: 18px;;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background:chocolate ;
+    cursor: pointer;
+}
+
+
+footer.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer{
+    background:burlywood ;
+    padding: 1px 0;
+    margin-bottom: 0px;
+    color: red;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:640px){
+    .container{
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}
+
+
+
+@media screen and (max-width:768px){
+footer{
+    text-align: center;
+    padding: 20px;
+}
+
+#contato .container{
+margin-top: 2200px;
+}
+
+
 }
